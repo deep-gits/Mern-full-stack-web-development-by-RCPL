@@ -1,0 +1,65 @@
+body{
+    background: black;
+    color:blue;
+}
+
+div.a{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+div.b{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    -ms-transform: skewY(20deg);
+    transform: skew(20deg);
+}
+
+div.c{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    -ms-transform: scaleY(20deg);
+    transform: scaleY(1.5);
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition: 5s;
+    transition-delay: 4s;
+    margin: 50px;
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.card:hover{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+}
+
+@keyframes ani{
+    0%{
+        transform: rotate(0deg);
+        background-color: yellow;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: gray;
+    }
+}
+
+.card1::before{
+    content:"hey-------";
+}
+
+div ~ h1{
+    background-color:red;
+}
