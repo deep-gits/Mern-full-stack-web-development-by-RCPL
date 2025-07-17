@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items:  last baseline;
+    width: 180px;
+    height: 500px;
+    border: 5px solid black;
+
+}
+.card1{
+    background-color: red;
+    height: 80px;
+    width: 100px;
+}
+.card2{
+    background-color: rgb(157,255,0);
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    display: none;
+}
+.card3{
+    background-color: rgb(25,0,255);
+    height: 60px;
+    width: 100px;
+}
