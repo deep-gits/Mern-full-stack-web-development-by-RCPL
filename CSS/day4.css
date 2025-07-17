@@ -1,0 +1,59 @@
+*{
+    background-color:greenyellow  ;
+}
+
+#main{
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 300px;
+}
+
+.card{
+    background-color: gold;
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+    color: black;
+    height: 50px;
+    width: 230px;
+    padding-left: 10px;
+    font-style: italic;
+    border: solid;
+    text-decoration-line: line-through overline underline;
+    text-decoration-color: brown;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 5px;
+    font-size: x-large;
+}
+a{
+    background-color: aquamarine;
+}
+
+div{
+    font-weight: bold;
+
+}
+p{
+    font-weight: inherit;
+}
+div.a{
+    font-size: large;
+}
+
+div.b{
+    font-size: larger;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    margin: 50px 80px 70px 120px;
+    
+
+}
+
+div.c{
+    font-size: xx-large;
+    word-spacing: -12px;
+    letter-spacing: 12px;
+}
