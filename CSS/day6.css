@@ -1,0 +1,48 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row: auto auto auto;
+    background-color: aqua;
+    padding: 2px;
+}
+
+.nav{
+    background-color: aquamarine;
+    
+    border-radius: 3px;
+}
+
+.navbar{
+    text-decoration: line-through;
+}
+
+.main{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.cart1{
+    color: aliceblue;
+}
+h1{
+    visibility: visible;
+}
+
+h2{
+    visibility: hidden;
+}
+h3{
+    display: none;
+
+}
+
+.random{
+    box-shadow: 5px 5px 5px;
+    height: 200px;
+    width: 200px;
+    text-shadow: 5px 5px 5px;
+    background-image: repeating-linear-gradient(red 5%,blue 10%);
+    background-image: radial-gradient(circle,red,rgb(10, 24, 10));
+    background-image: repeating-radial-gradient(red 3%,blue 10%);
+    background-image: repeating-conic-gradiant(red 3%,green 5%,yellow 9%);
+}
